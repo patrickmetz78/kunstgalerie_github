@@ -1,0 +1,120 @@
+body {
+  height: 100%;
+  width: 1400px;
+  background: linear-gradient(white, grey);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80px;
+}
+
+nav {
+  flex-basis: 60%;
+  }
+
+  nav a {
+    flex-grow: 1;
+  }
+
+.logo {
+  padding: 0px;
+}
+
+.wrapper {
+  padding: 40px;
+}
+
+.graffiti .single-img img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  padding: 10px;
+}
+
+.malereien .single-img img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  padding: 10px;
+}
+
+.skulpturen .single-img img {
+  width: 400px;
+  height: 400px;
+  object-fit: fill;
+  object-position: center;
+  padding: 10px;
+}
+
+.graffiti,
+h3 {
+  display: flex;
+  font-weight: 200;
+  color: black;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.malereien {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.skulpturen {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+img:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+nav ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+nav a:hover {
+  transition: 0.5s;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.1em;
+  margin-top: 40px;
+}
